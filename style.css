@@ -1,24 +1,53 @@
 body {
-    background-color: blue;
-    color: green;
+    background-color: rgb(50, 3, 88);
+    color: rgb(98, 228, 98);
+    height: 100vh;
+    font-family: monospace;
 }
 
 .header-border {
-    background-color: darkblue;
+    display: flex;
+    justify-content: center;
 }
 
 .header-main {
     background-color: black;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: 1 1 auto;
+    padding: 1% 1% 1% 5%;
+    border-radius: 10px;
 }
 
 .logo{
-    color: green;
+    /* color: green; */
+    padding-right: 10%;
+    font-size: 36px;
+    font-weight: 700;
 }
 
 .header-links {
-    color: green;
+    /* color: green; */
+    font-size: 24px;
 }
 
 ul {
+    display: flex;
+    list-style: none;
+}
 
+li {
+    padding: 0 1% 0 0%;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(98, 228, 98);
 }
