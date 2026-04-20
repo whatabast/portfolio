@@ -46,8 +46,43 @@ li {
 
 a {
     text-decoration: none;
+    color: rgb(149, 73, 250);
 }
 
 a:hover {
     color: rgb(98, 228, 98);
+}
+
+.about-border {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    max-width: fit-content;
+    background-color: black;
+    margin: 3%;
+}
+
+.about-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 2%;
+}
+
+.about-info {
+    font-size: 24px;
+    display: flex;
+}
+
+.who,
+.what,
+.where {
+    border: 5px solid rgb(50, 3, 88);
+    margin: 2%;
+    padding: 1%;
+    border-radius: 10px;
 }
