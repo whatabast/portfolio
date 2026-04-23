@@ -14,23 +14,22 @@ body {
     background-color: black;
     flex-direction: column;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-direction: 1 1 auto;
-    padding: 1% 1% 1% 5%;
+    /* padding: 1% 1% 1% 0; */
     border-radius: 10px;
+    border: 1px solid white;
 }
 
 .logo{
     /* color: green; */
-    padding-right: 10%;
     font-size: 36px;
     font-weight: 700;
 }
 
 .header-links {
     /* color: green; */
-    font-size: 24px;
+    font-size: 16px;
 }
 
 ul {
@@ -39,14 +38,18 @@ ul {
 }
 
 li {
-    padding: 0 1% 0 0%;
+    padding: 0 2% 0 2%;
+    text-align: center;
 }
-
-
 
 a {
     text-decoration: none;
     color: rgb(149, 73, 250);
+}
+
+a.inactive {
+    color: rgb(98, 228, 98);
+    margin-right: 25px;
 }
 
 a:hover {
@@ -64,6 +67,7 @@ a:hover {
     border-radius: 10px;
     max-width: fit-content;
     background-color: black;
+    border: 1px solid white;
     margin: 3%;
 }
 
@@ -76,13 +80,18 @@ a:hover {
 .about-info {
     font-size: 24px;
     display: flex;
+    flex-wrap: wrap;
+    border: 10px solid red;
+    max-width: 1000px;
 }
 
 .who,
 .what,
 .where {
-    border: 5px solid rgb(50, 3, 88);
+    border: 2px solid rgb(50, 3, 88);
     margin: 2%;
     padding: 1%;
     border-radius: 10px;
+    min-width: 100px;
+    max-width: 250px;
 }
