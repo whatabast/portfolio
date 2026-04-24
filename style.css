@@ -62,7 +62,6 @@ a:hover {
 .about-border {
     display: flex;
     justify-content: center;
-    border: 10px solid red;
 }
 
 .about {
